@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Samhan | Software Engineer</title>
+  <meta name="description" content="Portfolio of Mohammad Samhan — software engineer, CS student at Northeastern University, building impactful full-stack applications.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%23818cf8'/%3E%3Ctext x='50' y='68' font-family='system-ui' font-size='48' font-weight='700' fill='white' text-anchor='middle'%3EMS%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="nav" id="nav">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo">MS</a>
+        <div class="nav-links" id="navLinks">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-links">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#experience" class="mobile-link">Experience</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-greeting anim-hero" style="--i:0">Hi, I'm</p>
+        <h1 class="hero-name anim-hero" style="--i:1">Mohammad<br>Samhan.</h1>
+        <p class="hero-tagline anim-hero" style="--i:2">Software Engineer building things that matter.</p>
+        <p class="hero-sub anim-hero" style="--i:3">CS @ Northeastern University &middot; Bain Capital</p>
+        <div class="hero-actions anim-hero" style="--i:4">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="scroll-cta anim-hero" style="--i:5">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-intro">
+          <p class="about-statement reveal">I'm a full-stack developer</p>
+          <p class="about-statement reveal">with a passion for building software</p>
+          <p class="about-statement reveal">that solves <em>real-world problems.</em></p>
+        </div>
+        <div class="about-layout">
+          <div class="about-text reveal">
+            <p>Currently studying Computer Science at <strong>Northeastern University</strong> and working as an Applications Developer at <strong>Bain Capital</strong>. I love working across the stack&mdash;from crafting intuitive frontends to building scalable APIs and cloud infrastructure.</p>
+            <p>When I'm not coding, you'll find me at the Makerspace, helping people bring ideas to life with 3D printers, laser cutters, and woodworking equipment.</p>
+          </div>
+          <div class="about-details reveal">
+            <div class="detail">
+              <span class="detail-label">Education</span>
+              <span class="detail-value">B.S. Computer Science</span>
+              <span class="detail-value">Northeastern University, Khoury College</span>
+              <span class="detail-meta">GPA 3.9/4.0 &middot; Expected May 2028</span>
+            </div>
+            <div class="detail">
+              <span class="detail-label">Location</span>
+              <span class="detail-value">Chicago, IL / Boston, MA</span>
+              <span class="detail-meta">Open to relocation</span>
+            </div>
+            <div class="detail">
+              <span class="detail-label">Availability</span>
+              <span class="detail-value">June &ndash; September 2026</span>
+              <span class="detail-meta">Co-op / Internship</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal">Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">Bain Capital</h3>
+                <p class="timeline-role">Applications Developer Co-op</p>
+              </div>
+              <span class="timeline-date">Jan 2026 &ndash; Jun 2026</span>
+            </div>
+            <div class="timeline-body">
+              <p>Developing features for internal deal management application in C#, integrating AWS Lambda and Workato APIs to streamline workflows for the investment team.</p>
+              <p>Building and maintaining custom APIs to enhance internal tooling used across deal tracking and portfolio management.</p>
+            </div>
+            <div class="tags">
+              <span class="tag">C#</span>
+              <span class="tag">.NET</span>
+              <span class="tag">AWS Lambda</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">Workato</span>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">Northeastern EXP Makerspace</h3>
+                <p class="timeline-role">Makerspace Assistant</p>
+              </div>
+              <span class="timeline-date">Jan 2025 &ndash; Present</span>
+            </div>
+            <div class="timeline-body">
+              <p>Providing technical guidance to 50+ patrons weekly on CAD software, 3D printing, and laser cutting, improving project success rates by 30%.</p>
+              <p>Optimized machine workflows and implemented preventive maintenance schedules, decreasing downtime by 25%.</p>
+            </div>
+            <div class="tags">
+              <span class="tag">CAD</span>
+              <span class="tag">3D Printing</span>
+              <span class="tag">Laser Cutting</span>
+              <span class="tag">Training</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="projects-list">
+          <article class="project-card reveal">
+            <div class="project-header">
+              <div>
+                <h3 class="project-name">Iqra</h3>
+                <p class="project-type">AI Quran Recitation App</p>
+              </div>
+              <span class="project-date">Dec 2025 &ndash; Present</span>
+            </div>
+            <div class="project-body">
+              <p>Full-stack application enabling users to practice Quran recitation across 114 chapters with 10+ integrated reciters, featuring real-time pronunciation feedback through NVIDIA Riva speech recognition API with sub-200ms response time.</p>
+              <p>Built streaming audio analysis system to detect Tajweed errors in real-time, with RESTful backend managing user progress across 500+ audio samples.</p>
+            </div>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Flask</span>
+              <span class="tag">NVIDIA Riva</span>
+              <span class="tag">Web Audio API</span>
+              <span class="tag">SQLAlchemy</span>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-header">
+              <div>
+                <h3 class="project-name">Crypto Buddy</h3>
+                <p class="project-type">AI Crypto Dashboard</p>
+              </div>
+              <span class="project-date">Mar 2025 &ndash; May 2025</span>
+            </div>
+            <div class="project-body">
+              <p>Real-time cryptocurrency dashboard integrating CoinMarketCap API to track 100+ cryptocurrencies with live price, volume, and market cap updates.</p>
+              <p>Responsive React + Vite frontend with Flask backend utilizing NumPy for data processing, achieving 99.5% uptime through Redis caching.</p>
+            </div>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Vite</span>
+              <span class="tag">Flask</span>
+              <span class="tag">Redis</span>
+              <span class="tag">NumPy</span>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-header">
+              <div>
+                <h3 class="project-name">Crux</h3>
+                <p class="project-type">Course Difficulty Analyzer</p>
+              </div>
+              <span class="project-date">Sep 2025 &ndash; Present</span>
+            </div>
+            <div class="project-body">
+              <p>Full-stack application using Python and web scraping to aggregate course data from RateMyProfessor, course catalogs, and grade distributions, analyzing 500+ Northeastern courses.</p>
+              <p>Developing ML algorithms with weighted factors for quantitative difficulty scores, with plans to expand to 10+ universities.</p>
+            </div>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Web Scraping</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">REST APIs</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Tech Stack</h2>
+        <div class="skills-grid reveal" id="skillsGrid">
+          <div class="skill-group">
+            <h4 class="skill-label">Languages</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Kotlin</span>
+              <span class="skill-tag">C#</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">HTML/CSS</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4 class="skill-label">Web Development</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">React Native</span>
+              <span class="skill-tag">Flask</span>
+              <span class="skill-tag">Vite</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">RESTful APIs</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4 class="skill-label">Cloud &amp; DevOps</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">EC2</span>
+              <span class="skill-tag">Lambda</span>
+              <span class="skill-tag">EKS</span>
+              <span class="skill-tag">Terraform</span>
+              <span class="skill-tag">Azure</span>
+              <span class="skill-tag">Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="contact-heading reveal">Let's build something<br>together.</h2>
+        <p class="contact-sub reveal">Currently looking for co-op opportunities for June&ndash;September 2026. Open to relocation.</p>
+        <div class="contact-links reveal">
+          <a href="mailto:samhan.m@northeastern.edu" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span>samhan.m@northeastern.edu</span>
+          </a>
+          <a href="https://linkedin.com/in/mosamhan" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/mosamhan" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+        <p class="contact-location reveal">Chicago, IL &middot; Boston, MA</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p>Designed &amp; built by Mohammad Samhan</p>
+        <p>&copy; 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
